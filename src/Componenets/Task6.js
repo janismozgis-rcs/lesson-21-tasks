@@ -16,9 +16,9 @@ function Task6() {
         // if (car === specialCarName) {
         //     bgColor = 'red';
         // }
-        const bgColor = car === specialCarName ? 'red' : 'none';
+        const bgColor = car === specialCarName ? 'red' : 'transparent';
         
-        return <li key={index} style={{background: bgColor}}>{car}</li>
+        return <li key={index} style={{backgroundColor: bgColor}}>{car}</li>
     })
 
     return (
